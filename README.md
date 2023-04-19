@@ -29,6 +29,8 @@ rm -rf ~/.config/nvim ~/.local/share/nvim ~/.local/state/nvim ~/.cache/nvim
 
 - [lazy.nvim](https://github.com/folke/lazy.nvim) 包管理器
 
+- [pinkmare](https://github.com/Matsuuu/pinkmare) 配色主题
+
 ### 未配置
 
 - [nvim-lspconfig](https://github.com/neovim/nvim-lspconfig) LSP集成
@@ -44,7 +46,6 @@ rm -rf ~/.config/nvim ~/.local/share/nvim ~/.local/state/nvim ~/.cache/nvim
 
 - [formatter.nvim](https://github.com/mhartington/formatter.nvim) 代码格式化
 
-- [pinkmare](https://github.com/Matsuuu/pinkmare) 配色主题
 - [nvim-tree.lua](https://github.com/nvim-tree/nvim-tree.lua) 浏览树
 - [bufferline.nvim](https://github.com/akinsho/bufferline.nvim) 标签页
 - [lualine.nvim](https://github.com/nvim-lualine/lualine.nvim) 状态栏
@@ -63,4 +64,3 @@ rm -rf ~/.config/nvim ~/.local/share/nvim ~/.local/state/nvim ~/.cache/nvim
 
 - [telescope.nvim](https://github.com/nvim-telescope/telescope.nvim) 模糊查找器
 - [which-key.nvim](https://github.com/folke/which-key.nvim) 快捷键查询
-- [mini.nvim](https://github.com/echasnovski/mini.nvim) mini依赖库
