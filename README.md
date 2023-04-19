@@ -32,9 +32,10 @@ rm -rf ~/.config/nvim ~/.local/share/nvim ~/.local/state/nvim ~/.cache/nvim
 - [ ] [pinkmare](https://github.com/Matsuuu/pinkmare) 配色主题
 - [x] [dashboard-nvim](https://github.com/nvimdev/dashboard-nvim) 启动界面
 - [x] [transparent.nvim](https://github.com/xiyaowong/transparent.nvim) 背景透明
-- [x] [nvim-web-devicons](https://github.com/nvim-tree/nvim-web-devicons) icon
 - [x] [dressing.nvim](https://github.com/stevearc/dressing.nvim) 界面美化
 - [x] [wilder.nvim](https://github.com/gelguy/wilder.nvim) 菜单美化
+- [x] [colorful-winsep.nvim](https://github.com/nvim-zh/colorful-winsep.nvim) 分屏窗口高亮
+- [x] [nvim-web-devicons](https://github.com/nvim-tree/nvim-web-devicons) icon
 
 - [x] [neo-tree.nvim](https://github.com/nvim-neo-tree/neo-tree.nvim) 浏览树
 - [x] [bufferline.nvim](https://github.com/akinsho/bufferline.nvim) 标签页
