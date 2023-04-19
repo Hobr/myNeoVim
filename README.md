@@ -18,7 +18,7 @@ git clone https://github.com/Hobr/myNeoVim.git ~/.config/nvim
 rm -rf ~/.config/nvim/.git
 
 # 卸载
-rm -rf ~/.config/nvim ~/.local/share/nvim ~/.cache/nvim
+rm -rf ~/.config/nvim ~/.local/share/nvim ~/.local/state/nvim ~/.cache/nvim
 ```
 
 ## 目录结构
@@ -50,7 +50,7 @@ rm -rf ~/.config/nvim ~/.local/share/nvim ~/.cache/nvim
 - [lualine.nvim](https://github.com/nvim-lualine/lualine.nvim) 状态栏
 - [nvim-notify](https://github.com/rcarriga/nvim-notify) 通知
 
-- [alpha-nvim](https://github.com/goolord/alpha-nvim) 启动界面
+- [dashboard-nvim](https://github.com/nvimdev/dashboard-nvim) 启动界面
 - [transparent.nvim](https://github.com/xiyaowong/transparent.nvim) 背景透明
 - [nvim-web-devicons](https://github.com/nvim-tree/nvim-web-devicons) icon
 

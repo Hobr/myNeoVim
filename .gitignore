@@ -6,6 +6,15 @@ coc-settings.json
 .luarc.json
 lazy-lock.json
 
+# lazyvim
+tt.*
+.tests
+doc/tags
+debug
+.repro
+foo.*
+*.log
+
 # Compiled Lua sources
 luac.out
 
