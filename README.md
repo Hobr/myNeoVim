@@ -29,6 +29,8 @@ rm -rf ~/.config/nvim ~/.local/share/nvim ~/.local/state/nvim ~/.cache/nvim
 
 - [ ] [lazy.nvim](https://github.com/folke/lazy.nvim) 包管理器
 
+### UI
+
 - [ ] [pinkmare](https://github.com/Matsuuu/pinkmare) 配色主题
 - [x] [dashboard-nvim](https://github.com/nvimdev/dashboard-nvim) 启动界面
 - [x] [transparent.nvim](https://github.com/xiyaowong/transparent.nvim) 背景透明
@@ -44,11 +46,15 @@ rm -rf ~/.config/nvim ~/.local/share/nvim ~/.local/state/nvim ~/.cache/nvim
 - [x] [nvim-notify](https://github.com/rcarriga/nvim-notify) 通知
 - [x] [noice.nvim](https://github.com/folke/noice.nvim) 提示
 
+### LSP
+
 - [x] [nvim-lspconfig](https://github.com/neovim/nvim-lspconfig) LSP集成
 - [x] [null-ls.nvim](https://github.com/jose-elias-alvarez/null-ls.nvim) LSP
 - [x] [mason.nvim](https://github.com/williamboman/mason.nvim) 自动化安装管理LSP Server
 - [x] [lspsaga.nvim](https://github.com/nvimdev/lspsaga.nvim) LSP增强
 - [x] [lspkind.nvim](https://github.com/onsails/lspkind.nvim) LSP图标
+
+### Code
 
 - [x] [nvim-cmp](https://github.com/hrsh7th/nvim-cmp) 代码补全
 - [x] [cmp-under-comparator](https://github.com/lukas-reineke/cmp-under-comparator) cmp扩展，优化显示顺序
@@ -61,16 +67,10 @@ rm -rf ~/.config/nvim ~/.local/share/nvim ~/.local/state/nvim ~/.cache/nvim
 
 - [x] [nvim-navic](https://github.com/SmiteshP/nvim-navic) 光标空间名称提示
 - [x] [nvim-cursorline](https://github.com/yamatsum/nvim-cursorline) 自动高亮光标处
+- [x] [nvim-autopairs](https://github.com/windwp/nvim-autopairs) 自动括号闭合
 - [x] [indent-blankline.nvim](https://github.com/lukas-reineke/indent-blankline.nvim) 缩进线
 - [x] [trouble.nvim](https://github.com/folke/trouble.nvim) 问题栏
 - [x] [nvim-scrollbar](https://github.com/petertriho/nvim-scrollbar) 滚动条
-
-- [x] [telescope.nvim](https://github.com/nvim-telescope/telescope.nvim) 模糊查找器
-- [x] [leap.nvim](https://github.com/ggandor/leap.nvim) 页面定位
-- [x] [which-key.nvim](https://github.com/folke/which-key.nvim) 快捷键查询
-- [x] [neoscroll.nvim](https://github.com/karb94/neoscroll.nvim) 平滑滑动
-- [x] [nvim-hlslens](https://github.com/kevinhwang91/nvim-hlslens) 搜索高亮
-- [x] [nvim-autopairs](https://github.com/windwp/nvim-autopairs) 自动括号闭合
 
 - [x] [nvim-dap](https://github.com/mfussenegger/nvim-dap) 调试器
 - [x] [nvim-dap-ui](https://github.com/rcarriga/nvim-dap-ui) 调试器UI
@@ -78,6 +78,14 @@ rm -rf ~/.config/nvim ~/.local/share/nvim ~/.local/state/nvim ~/.cache/nvim
 - [x] [gitsigns.nvim](https://github.com/lewis6991/gitsigns.nvim) Git
 - [x] [toggleterm.nvim](https://github.com/akinsho/toggleterm.nvim) 终端
 - [x] [sniprun](https://github.com/michaelb/sniprun) 代码片段运行
+
+### App
+
+- [x] [telescope.nvim](https://github.com/nvim-telescope/telescope.nvim) 模糊查找器
+- [x] [leap.nvim](https://github.com/ggandor/leap.nvim) 页面定位
+- [x] [which-key.nvim](https://github.com/folke/which-key.nvim) 快捷键查询
+- [x] [neoscroll.nvim](https://github.com/karb94/neoscroll.nvim) 平滑滑动
+- [x] [nvim-hlslens](https://github.com/kevinhwang91/nvim-hlslens) 搜索高亮
 
 - [x] [copilot.lua](https://github.com/zbirenbaum/copilot.lua) Copilot
 - [x] [copilot-cmp](https://github.com/zbirenbaum/copilot-cmp) 将Copilot接入cmp

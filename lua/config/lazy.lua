@@ -20,9 +20,7 @@ require("lazy").setup({
     -- { import = "plugin.lsp" },
     { import = "plugin.ui" },
   },
-  defaults = {
-    lazy = false,
-    version = false, 
-  },
+	defaults = { lazy = false, version = false },
+	install = { colorscheme = { "pinkmare" } },
   checker = { enabled = true },
 })
