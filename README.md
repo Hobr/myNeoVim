@@ -37,7 +37,6 @@ rm -rf ~/.config/nvim ~/.local/share/nvim ~/.local/state/nvim ~/.cache/nvim
 - [ ] [dressing.nvim](https://github.com/stevearc/dressing.nvim) 界面美化
 - [ ] [wilder.nvim](https://github.com/gelguy/wilder.nvim) 菜单美化
 - [ ] [colorful-winsep.nvim](https://github.com/nvim-zh/colorful-winsep.nvim) 分屏窗口高亮
-- [ ] [nvim-web-devicons](https://github.com/nvim-tree/nvim-web-devicons) icon
 
 - [ ] [neo-tree.nvim](https://github.com/nvim-neo-tree/neo-tree.nvim) 浏览树
 - [ ] [bufferline.nvim](https://github.com/akinsho/bufferline.nvim) 标签页
@@ -97,4 +96,3 @@ rm -rf ~/.config/nvim ~/.local/share/nvim ~/.local/state/nvim ~/.cache/nvim
 - [ ] [obsidian.nvim](https://github.com/epwalsh/obsidian.nvim) Obsidian集成
 - [ ] [octo.nvim](https://github.com/pwntester/octo.nvim) Github
 - [ ] [competitest.nvim](https://github.com/xeluxee/competitest.nvim) 算法题样例测试
-- [ ] [plenary.nvim](https://github.com/nvim-lua/plenary.nvim) 依赖

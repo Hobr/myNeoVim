@@ -58,6 +58,7 @@ vim.o.swapfile = false
 -- smaller updatetime
 vim.o.updatetime = 300
 -- 快捷键连击判定时间
+vim.o.timeout = true
 vim.o.timeoutlen = 500
 -- split window 从下边和右边出现
 vim.o.splitbelow = true
