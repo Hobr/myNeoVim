@@ -9,7 +9,7 @@ local M = {
     "saadparwaiz1/cmp_luasnip",
     "onsails/lspkind-nvim",
     "hrsh7th/cmp-nvim-lua",
-    "rafamadriz/friendly-snippets",-- https://github.com/rafamadriz/friendly-snippets#with-lazynvim
+    "rafamadriz/friendly-snippets", -- https://github.com/rafamadriz/friendly-snippets#with-lazynvim
     "L3MON4D3/LuaSnip",
   },
 }

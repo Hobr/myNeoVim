@@ -3,12 +3,12 @@ local M = {
 }
 
 M.config = function()
-  require("transparent").setup({
+  require("transparent").setup {
     extra_groups = {
       "NormalFloat",
       "NvimTreeNormal",
     },
-  })
+  }
 end
 
 return M
