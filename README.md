@@ -58,7 +58,7 @@ rm -rf ~/.config/nvim ~/.local/share/nvim ~/.local/state/nvim ~/.cache/nvim
 - [x] [nvim-cmp](https://github.com/hrsh7th/nvim-cmp) 代码补全
 - [x] [cmp-under-comparator](https://github.com/lukas-reineke/cmp-under-comparator) cmp扩展，优化显示顺序
 - [x] [cmp-nvim-lsp](https://github.com/hrsh7th/cmp-nvim-lsp) cmp扩展，接入LSP
-- [ ] [nvim-treesitter](https://github.com/nvim-treesitter/nvim-treesitter) 代码高亮
+- [x] [nvim-treesitter](https://github.com/nvim-treesitter/nvim-treesitter) 代码高亮
 - [ ] [LuaSnip](https://github.com/L3MON4D3/LuaSnip) 代码片段
 - [ ] [friendly-snippets](https://github.com/rafamadriz/friendly-snippets) 预设代码片段
 - [ ] [nvim-ufo](https://github.com/kevinhwang91/nvim-ufo) 代码折叠
