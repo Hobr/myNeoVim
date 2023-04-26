@@ -35,7 +35,7 @@ rm -rf ~/.config/nvim ~/.local/share/nvim ~/.local/state/nvim ~/.cache/nvim
 - [x] [dashboard-nvim](https://github.com/nvimdev/dashboard-nvim) 启动界面
 - [x] [transparent.nvim](https://github.com/xiyaowong/transparent.nvim) 背景透明
 - [x] [dressing.nvim](https://github.com/stevearc/dressing.nvim) 界面美化
-- [ ] [wilder.nvim](https://github.com/gelguy/wilder.nvim) 菜单美化
+- [x] [wilder.nvim](https://github.com/gelguy/wilder.nvim) 菜单美化
 - [ ] [colorful-winsep.nvim](https://github.com/nvim-zh/colorful-winsep.nvim) 分屏窗口高亮
 
 - [ ] [neo-tree.nvim](https://github.com/nvim-neo-tree/neo-tree.nvim) 浏览树
