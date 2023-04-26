@@ -2,8 +2,6 @@
 
 我的个人NeoVim配置
 
-未完待续....
-
 ## 使用
 
 首先请下载[Nerd Font](https://www.nerdfonts.com/font-downloads)并修改终端字体设置
@@ -62,7 +60,6 @@ rm -rf ~/.config/nvim ~/.local/share/nvim ~/.local/state/nvim ~/.cache/nvim
 - [x] [LuaSnip](https://github.com/L3MON4D3/LuaSnip) 代码片段
 - [x] [friendly-snippets](https://github.com/rafamadriz/friendly-snippets) 预设代码片段
 - [x] [nvim-ufo](https://github.com/kevinhwang91/nvim-ufo) 代码折叠
-- [ ] [nvim-lint](https://github.com/mfussenegger/nvim-lint) 代码格式化
 
 - [ ] [nvim-navic](https://github.com/SmiteshP/nvim-navic) 光标空间名称提示
 - [ ] [nvim-cursorline](https://github.com/yamatsum/nvim-cursorline) 自动高亮光标处
