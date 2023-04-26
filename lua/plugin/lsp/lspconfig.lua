@@ -6,9 +6,22 @@ local M = {
 M.config = function()
   local lspconfig = require "lspconfig"
   local capabilities = require("cmp_nvim_lsp").default_capabilities()
+  local navic = require "nvim-navic"
+  local on_attach = function(client, bufnr)
+    if client.server_capabilities.documentSymbolProvider then
+      navic.attach(client, bufnr)
+    end
+  end
   -- Language
-  lspconfig.pyright.setup { capabilities = capabilities }
-  lspconfig.clangd.setup { capabilities = capabilities }
+  lspconfig.pyright.setup {
+    capabilities = capabilities,
+    on_attach = on_attach,
+  }
+
+  lspconfig.clangd.setup {
+    capabilities = capabilities,
+    on_attach = on_attach,
+  }
 
   vim.api.nvim_create_autocmd("LspAttach", {
     group = vim.api.nvim_create_augroup("UserLspConfig", {}),
