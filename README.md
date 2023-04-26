@@ -72,7 +72,7 @@ rm -rf ~/.config/nvim ~/.local/share/nvim ~/.local/state/nvim ~/.cache/nvim
 - [x] [neotest](https://github.com/nvim-neotest/neotest) 测试
 - [x] [gitsigns.nvim](https://github.com/lewis6991/gitsigns.nvim) Git
 - [x] [toggleterm.nvim](https://github.com/akinsho/toggleterm.nvim) 终端
-- [ ] [sniprun](https://github.com/michaelb/sniprun) 代码片段运行
+- [x] [sniprun](https://github.com/michaelb/sniprun) 代码片段运行
 
 ### App
 
