@@ -1,5 +1,5 @@
 local M = {
-  "rmagatti/auto-session",
+  --"rmagatti/auto-session",
 }
 
 return M
