@@ -3,7 +3,7 @@ local opt = { noremap = true, silent = true }
 
 --- Normal
 -- 退出
-map("n", "q", ":q<CR>", opt)
+map("n", "Q", ":q<CR>", opt)
 map("n", "qq", ":q!<CR>", opt)
 map("n", "<leader>q", ":qa!<CR>", opt)
 
@@ -28,6 +28,11 @@ vim.keymap.set("n", "<leader>bc", "<cmd>BufferLinePickClose<CR>", { desc = "Clos
 vim.keymap.set("n", "<leader>bse", "<cmd>BufferLineSortByExtension<CR>", { desc = "By extension" })
 vim.keymap.set("n", "<leader>bsd", "<cmd>BufferLineSortByDirectory<CR>", { desc = "By directory" })
 vim.keymap.set("n", "<leader>bst", "<cmd>BufferLineSortByTabs<CR>", { desc = "By tabs" })
+
+vim.keymap.set("n", "<space>e", vim.diagnostic.open_float)
+vim.keymap.set("n", "[d", vim.diagnostic.goto_prev)
+vim.keymap.set("n", "]d", vim.diagnostic.goto_next)
+vim.keymap.set("n", "<space>q", vim.diagnostic.setloclist)
 --- 插件
 local pluginKeys = {}
 return pluginKeys

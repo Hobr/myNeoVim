@@ -43,11 +43,11 @@ rm -rf ~/.config/nvim ~/.local/share/nvim ~/.local/state/nvim ~/.cache/nvim
 - [x] [lualine.nvim](https://github.com/nvim-lualine/lualine.nvim) 状态栏
 
 - [x] [nvim-notify](https://github.com/rcarriga/nvim-notify) 通知
-- [ ] [noice.nvim](https://github.com/folke/noice.nvim) 提示
+- [x] [noice.nvim](https://github.com/folke/noice.nvim) 提示
 
 ### LSP
 
-- [ ] [nvim-lspconfig](https://github.com/neovim/nvim-lspconfig) LSP集成
+- [x] [nvim-lspconfig](https://github.com/neovim/nvim-lspconfig) LSP集成
 - [ ] [null-ls.nvim](https://github.com/jose-elias-alvarez/null-ls.nvim) LSP
 - [ ] [mason.nvim](https://github.com/williamboman/mason.nvim) 自动化安装管理LSP Server
 - [ ] [lspsaga.nvim](https://github.com/nvimdev/lspsaga.nvim) LSP增强
