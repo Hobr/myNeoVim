@@ -7,7 +7,8 @@ local M = {
 
 M.config = function()
   require("luasnip.loaders.from_vscode").lazy_load()
-  require("LuaSnip").setup {
+  require("luasnip").filetype_extend("ruby", { "rails" })
+  require("luasnip").setup {
     history = true,
     enable_autosnippets = true,
   }
