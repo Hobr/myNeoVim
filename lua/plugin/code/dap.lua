@@ -9,7 +9,6 @@ local M = {
     "typescriptreact",
   },
   dependencies = {
-    "folke/neodev.nvim",
     "rcarriga/nvim-dap-ui",
     "theHamsta/nvim-dap-virtual-text",
     "mxsdev/nvim-dap-vscode-js",
@@ -23,9 +22,6 @@ M.config = function()
   local dap_vt = require "nvim-dap-virtual-text"
   local dap_vscode_js = require "dap-vscode-js"
   local dap_python = require "dap-python"
-  require("neodev").setup {
-    library = { plugins = { "nvim-dap-ui" }, types = true },
-  }
   dap_vt.setup {
     enabled = true, -- enable this plugin (the default)
     enabled_commands = true, -- create commands DapVirtualTextEnable, DapVirtualTextDisable, DapVirtualTextToggle, (DapVirtualTextForceRefresh for refreshing when debug adapter did not notify its termination)
