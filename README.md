@@ -39,8 +39,8 @@ rm -rf ~/.config/nvim ~/.local/share/nvim ~/.local/state/nvim ~/.cache/nvim
 - [x] [colorful-winsep.nvim](https://github.com/nvim-zh/colorful-winsep.nvim) 分屏窗口高亮
 
 - [x] [neo-tree.nvim](https://github.com/nvim-neo-tree/neo-tree.nvim) 浏览树
-- [ ] [bufferline.nvim](https://github.com/akinsho/bufferline.nvim) 标签页
-- [ ] [lualine.nvim](https://github.com/nvim-lualine/lualine.nvim) 状态栏
+- [x] [bufferline.nvim](https://github.com/akinsho/bufferline.nvim) 标签页
+- [x] [lualine.nvim](https://github.com/nvim-lualine/lualine.nvim) 状态栏
 
 - [ ] [nvim-notify](https://github.com/rcarriga/nvim-notify) 通知
 - [ ] [noice.nvim](https://github.com/folke/noice.nvim) 提示
