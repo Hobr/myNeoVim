@@ -48,7 +48,7 @@ rm -rf ~/.config/nvim ~/.local/share/nvim ~/.local/state/nvim ~/.cache/nvim
 ### LSP
 
 - [x] [nvim-lspconfig](https://github.com/neovim/nvim-lspconfig) LSP集成
-- [ ] [null-ls.nvim](https://github.com/jose-elias-alvarez/null-ls.nvim) LSP
+- [x] [null-ls.nvim](https://github.com/jose-elias-alvarez/null-ls.nvim) LSP
 - [ ] [mason.nvim](https://github.com/williamboman/mason.nvim) 自动化安装管理LSP Server
 - [ ] [lspsaga.nvim](https://github.com/nvimdev/lspsaga.nvim) LSP增强
 - [ ] [lspkind.nvim](https://github.com/onsails/lspkind.nvim) LSP图标
