@@ -16,6 +16,7 @@ local M = {
     "hrsh7th/cmp-emoji",
     "octaltree/cmp-look",
     "lukas-reineke/cmp-under-comparator",
+    "hrsh7th/cmp-nvim-lsp",
   },
 }
 
@@ -23,7 +24,6 @@ M.config = function()
   local cmp = require "cmp"
   local lspkind = require "lspkind"
   local luasnip = require "luasnip"
-
   cmp.setup {
     mapping = {
       ["<C-b>"] = cmp.mapping(cmp.mapping.scroll_docs(-4), { "i", "c" }),

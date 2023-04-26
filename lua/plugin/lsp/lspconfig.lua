@@ -1,12 +1,15 @@
 local M = {
   "neovim/nvim-lspconfig",
+  dependencies = "hrsh7th/cmp-nvim-lsp",
 }
 
 M.config = function()
   local lspconfig = require "lspconfig"
+  local capabilities = require("cmp_nvim_lsp").default_capabilities()
   -- Language
-  lspconfig.pyright.setup {}
-  lspconfig.clangd.setup {}
+  lspconfig.pyright.setup { capabilities = capabilities }
+  lspconfig.clangd.setup { capabilities = capabilities }
+
   vim.api.nvim_create_autocmd("LspAttach", {
     group = vim.api.nvim_create_augroup("UserLspConfig", {}),
     callback = function(ev)
