@@ -42,7 +42,7 @@ rm -rf ~/.config/nvim ~/.local/share/nvim ~/.local/state/nvim ~/.cache/nvim
 - [x] [bufferline.nvim](https://github.com/akinsho/bufferline.nvim) 标签页
 - [x] [lualine.nvim](https://github.com/nvim-lualine/lualine.nvim) 状态栏
 
-- [ ] [nvim-notify](https://github.com/rcarriga/nvim-notify) 通知
+- [x] [nvim-notify](https://github.com/rcarriga/nvim-notify) 通知
 - [ ] [noice.nvim](https://github.com/folke/noice.nvim) 提示
 
 ### LSP
