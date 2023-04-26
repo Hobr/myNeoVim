@@ -63,7 +63,7 @@ rm -rf ~/.config/nvim ~/.local/share/nvim ~/.local/state/nvim ~/.cache/nvim
 
 - [x] [nvim-navic](https://github.com/SmiteshP/nvim-navic) 光标空间名称提示
 - [x] [nvim-cursorline](https://github.com/yamatsum/nvim-cursorline) 自动高亮光标处
-- [ ] [nvim-autopairs](https://github.com/windwp/nvim-autopairs) 自动括号闭合
+- [x] [nvim-autopairs](https://github.com/windwp/nvim-autopairs) 自动括号闭合
 - [ ] [indent-blankline.nvim](https://github.com/lukas-reineke/indent-blankline.nvim) 缩进线
 - [ ] [trouble.nvim](https://github.com/folke/trouble.nvim) 问题栏
 - [ ] [nvim-scrollbar](https://github.com/petertriho/nvim-scrollbar) 滚动条

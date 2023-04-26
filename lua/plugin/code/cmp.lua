@@ -24,6 +24,7 @@ M.config = function()
   local cmp = require "cmp"
   local lspkind = require "lspkind"
   local luasnip = require "luasnip"
+  local cmp_autopairs = require "nvim-autopairs.completion.cmp"
   cmp.setup {
     mapping = {
       ["<C-b>"] = cmp.mapping(cmp.mapping.scroll_docs(-4), { "i", "c" }),
@@ -124,6 +125,7 @@ M.config = function()
       { name = "cmdline_history" },
     },
   })
+  cmp.event:on("confirm_done", cmp_autopairs.on_confirm_done())
 end
 
 return M
