@@ -15,6 +15,7 @@ local M = {
     "hrsh7th/cmp-calc",
     "hrsh7th/cmp-emoji",
     "octaltree/cmp-look",
+    "lukas-reineke/cmp-under-comparator",
   },
 }
 
@@ -83,7 +84,7 @@ M.config = function()
         cmp.config.compare.offset,
         cmp.config.compare.exact,
         cmp.config.compare.score,
-
+        require("cmp-under-comparator").under,
         function(entry1, entry2)
           local _, entry1_under = entry1.completion_item.label:find "^_+"
           local _, entry2_under = entry2.completion_item.label:find "^_+"
