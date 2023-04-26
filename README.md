@@ -62,7 +62,7 @@ rm -rf ~/.config/nvim ~/.local/share/nvim ~/.local/state/nvim ~/.cache/nvim
 - [ ] [LuaSnip](https://github.com/L3MON4D3/LuaSnip) 代码片段
 - [ ] [friendly-snippets](https://github.com/rafamadriz/friendly-snippets) 预设代码片段
 - [ ] [nvim-ufo](https://github.com/kevinhwang91/nvim-ufo) 代码折叠
-- [ ] [formatter.nvim](https://github.com/mhartington/formatter.nvim) 代码格式化
+- [ ] [nvim-lint](https://github.com/mfussenegger/nvim-lint) 代码格式化
 
 - [ ] [nvim-navic](https://github.com/SmiteshP/nvim-navic) 光标空间名称提示
 - [ ] [nvim-cursorline](https://github.com/yamatsum/nvim-cursorline) 自动高亮光标处
