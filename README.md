@@ -68,8 +68,7 @@ rm -rf ~/.config/nvim ~/.local/share/nvim ~/.local/state/nvim ~/.cache/nvim
 - [x] [trouble.nvim](https://github.com/folke/trouble.nvim) 问题栏
 - [x] [nvim-scrollbar](https://github.com/petertriho/nvim-scrollbar) 滚动条
 
-- [ ] [nvim-dap](https://github.com/mfussenegger/nvim-dap) 调试器
-- [ ] [nvim-dap-ui](https://github.com/rcarriga/nvim-dap-ui) 调试器UI
+- [x] [nvim-dap](https://github.com/mfussenegger/nvim-dap) 调试器
 - [ ] [neotest](https://github.com/nvim-neotest/neotest) 测试
 - [ ] [gitsigns.nvim](https://github.com/lewis6991/gitsigns.nvim) Git
 - [ ] [toggleterm.nvim](https://github.com/akinsho/toggleterm.nvim) 终端
