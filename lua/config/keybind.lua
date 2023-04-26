@@ -1,6 +1,7 @@
 local map = vim.api.nvim_set_keymap
 local keymap = vim.keymap.set
 local opt = { noremap = true, silent = true }
+local opts = { buffer = 0 }
 
 --- Normal
 -- 退出
@@ -128,6 +129,15 @@ keymap("n", "<leader>xd", "<cmd>TroubleToggle document_diagnostics<cr>", { silen
 keymap("n", "<leader>xl", "<cmd>TroubleToggle loclist<cr>", { silent = true, noremap = true })
 keymap("n", "<leader>xq", "<cmd>TroubleToggle quickfix<cr>", { silent = true, noremap = true })
 keymap("n", "gR", "<cmd>TroubleToggle lsp_references<cr>", { silent = true, noremap = true })
+
+keymap("t", "<esc>", [[<C-\><C-n>]], opts)
+keymap("t", "jk", [[<C-\><C-n>]], opts)
+keymap("t", "<C-h>", [[<Cmd>wincmd h<CR>]], opts)
+keymap("t", "<C-j>", [[<Cmd>wincmd j<CR>]], opts)
+keymap("t", "<C-k>", [[<Cmd>wincmd k<CR>]], opts)
+keymap("t", "<C-l>", [[<Cmd>wincmd l<CR>]], opts)
+keymap("t", "<C-w>", [[<C-\><C-n><C-w>]], opts)
+vim.cmd "autocmd! TermOpen term://* lua set_terminal_keymaps()"
 --- 插件
 local pluginKeys = {}
 return pluginKeys
