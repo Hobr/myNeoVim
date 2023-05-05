@@ -85,9 +85,9 @@ rm -rf ~/.config/nvim ~/.local/share/nvim ~/.local/state/nvim ~/.cache/nvim
 - [x] [copilot.lua](https://github.com/zbirenbaum/copilot.lua) Copilot
 - [x] [copilot-cmp](https://github.com/zbirenbaum/copilot-cmp) 将Copilot接入cmp
 - [x] [project.nvim](https://github.com/ahmedkhalf/project.nvim) 项目
-- [ ] [mkdir.nvim](https://github.com/jghauser/mkdir.nvim) 未创建目录补全
+- [x] [mkdir.nvim](https://github.com/jghauser/mkdir.nvim) 未创建目录补全
 
-- [ ] [glow.nvim](https://github.com/ellisonleao/glow.nvim) Markdown预览
+- [x] [glow.nvim](https://github.com/ellisonleao/glow.nvim) Markdown预览
 - [ ] [obsidian.nvim](https://github.com/epwalsh/obsidian.nvim) Obsidian集成
 - [ ] [octo.nvim](https://github.com/pwntester/octo.nvim) Github
 - [ ] [competitest.nvim](https://github.com/xeluxee/competitest.nvim) 算法题样例测试
