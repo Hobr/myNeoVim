@@ -82,7 +82,7 @@ rm -rf ~/.config/nvim ~/.local/share/nvim ~/.local/state/nvim ~/.cache/nvim
 - [x] [neoscroll.nvim](https://github.com/karb94/neoscroll.nvim) 平滑滑动
 - [x] [nvim-hlslens](https://github.com/kevinhwang91/nvim-hlslens) 搜索高亮
 
-- [ ] [copilot.lua](https://github.com/zbirenbaum/copilot.lua) Copilot
+- [x] [copilot.lua](https://github.com/zbirenbaum/copilot.lua) Copilot
 - [ ] [copilot-cmp](https://github.com/zbirenbaum/copilot-cmp) 将Copilot接入cmp
 - [ ] [project.nvim](https://github.com/ahmedkhalf/project.nvim) 项目
 - [ ] [auto-session](https://github.com/rmagatti/auto-session) 会话
