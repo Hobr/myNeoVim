@@ -83,8 +83,8 @@ rm -rf ~/.config/nvim ~/.local/share/nvim ~/.local/state/nvim ~/.cache/nvim
 - [x] [nvim-hlslens](https://github.com/kevinhwang91/nvim-hlslens) 搜索高亮
 
 - [x] [copilot.lua](https://github.com/zbirenbaum/copilot.lua) Copilot
-- [ ] [copilot-cmp](https://github.com/zbirenbaum/copilot-cmp) 将Copilot接入cmp
-- [ ] [project.nvim](https://github.com/ahmedkhalf/project.nvim) 项目
+- [x] [copilot-cmp](https://github.com/zbirenbaum/copilot-cmp) 将Copilot接入cmp
+- [x] [project.nvim](https://github.com/ahmedkhalf/project.nvim) 项目
 - [ ] [auto-session](https://github.com/rmagatti/auto-session) 会话
 - [ ] [mkdir.nvim](https://github.com/jghauser/mkdir.nvim) 未创建目录补全
 
