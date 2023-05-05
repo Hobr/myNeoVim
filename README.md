@@ -89,7 +89,7 @@ rm -rf ~/.config/nvim ~/.local/share/nvim ~/.local/state/nvim ~/.cache/nvim
 
 - [x] [glow.nvim](https://github.com/ellisonleao/glow.nvim) Markdown预览
 - [x] [obsidian.nvim](https://github.com/epwalsh/obsidian.nvim) Obsidian集成
-- [ ] [octo.nvim](https://github.com/pwntester/octo.nvim) Github
+- [x] [octo.nvim](https://github.com/pwntester/octo.nvim) Github
 - [ ] [competitest.nvim](https://github.com/xeluxee/competitest.nvim) 算法题样例测试
 
 ## 计划
