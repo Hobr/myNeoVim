@@ -147,6 +147,15 @@ vim.keymap.set("n", "<leader>fb", builtin.buffers, {})
 local wk = require "which-key"
 wk.register(mappings, opts)
 vim.keymap.set("n", "<leader>fh", builtin.help_tags, {})
+
+map("n", "n", [[<Cmd>execute('normal! ' . v:count1 . 'n')<CR><Cmd>lua require('hlslens').start()<CR>]], kopts)
+map("n", "N", [[<Cmd>execute('normal! ' . v:count1 . 'N')<CR><Cmd>lua require('hlslens').start()<CR>]], kopts)
+map("n", "*", [[*<Cmd>lua require('hlslens').start()<CR>]], opts)
+map("n", "#", [[#<Cmd>lua require('hlslens').start()<CR>]], opts)
+map("n", "g*", [[g*<Cmd>lua require('hlslens').start()<CR>]], opts)
+map("n", "g#", [[g#<Cmd>lua require('hlslens').start()<CR>]], opts)
+
+map("n", "<Leader>l", "<Cmd>noh<CR>", opts)
 --- 插件
 local pluginKeys = {}
 return pluginKeys

@@ -80,7 +80,7 @@ rm -rf ~/.config/nvim ~/.local/share/nvim ~/.local/state/nvim ~/.cache/nvim
 - [x] [leap.nvim](https://github.com/ggandor/leap.nvim) 页面定位
 - [x] [which-key.nvim](https://github.com/folke/which-key.nvim) 快捷键查询
 - [x] [neoscroll.nvim](https://github.com/karb94/neoscroll.nvim) 平滑滑动
-- [ ] [nvim-hlslens](https://github.com/kevinhwang91/nvim-hlslens) 搜索高亮
+- [x] [nvim-hlslens](https://github.com/kevinhwang91/nvim-hlslens) 搜索高亮
 
 - [ ] [copilot.lua](https://github.com/zbirenbaum/copilot.lua) Copilot
 - [ ] [copilot-cmp](https://github.com/zbirenbaum/copilot-cmp) 将Copilot接入cmp
