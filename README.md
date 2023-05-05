@@ -91,7 +91,3 @@ rm -rf ~/.config/nvim ~/.local/share/nvim ~/.local/state/nvim ~/.cache/nvim
 - [x] [obsidian.nvim](https://github.com/epwalsh/obsidian.nvim) Obsidian集成
 - [x] [octo.nvim](https://github.com/pwntester/octo.nvim) Github
 - [x] [competitest.nvim](https://github.com/xeluxee/competitest.nvim) 算法题样例测试
-
-## 计划
-
-- [veil.nvim](https://github.com/willothy/veil.nvim) 新启动界面

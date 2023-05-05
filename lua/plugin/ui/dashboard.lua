@@ -30,20 +30,6 @@ M.config = function()
           action = "Telescope find_files find_command=rg,--ignore,--hidden,--files",
           key = "f",
         },
-        {
-          icon = " ",
-          desc = "Apps",
-          group = "String",
-          action = "Telescope app",
-          key = "a",
-        },
-        {
-          icon = " ",
-          desc = "dotfiles",
-          group = "Constant",
-          action = "Telescope dotfiles",
-          key = "d",
-        },
       },
     },
   }
