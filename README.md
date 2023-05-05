@@ -76,7 +76,7 @@ rm -rf ~/.config/nvim ~/.local/share/nvim ~/.local/state/nvim ~/.cache/nvim
 
 ### App
 
-- [ ] [telescope.nvim](https://github.com/nvim-telescope/telescope.nvim) 模糊查找器
+- [x] [telescope.nvim](https://github.com/nvim-telescope/telescope.nvim) 模糊查找器
 - [ ] [leap.nvim](https://github.com/ggandor/leap.nvim) 页面定位
 - [ ] [which-key.nvim](https://github.com/folke/which-key.nvim) 快捷键查询
 - [ ] [neoscroll.nvim](https://github.com/karb94/neoscroll.nvim) 平滑滑动
