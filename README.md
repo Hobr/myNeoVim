@@ -21,9 +21,11 @@ rm -rf ~/.config/nvim ~/.local/share/nvim ~/.local/state/nvim ~/.cache/nvim
 
 ## 快捷键
 
-- \<Leader\> 为空格键
+### 常用
 
+- \<Leader\> 为空格键
 - \<Leader\>q 退出
+- \<Leader\>w 保存
 
 ## 插件
 
