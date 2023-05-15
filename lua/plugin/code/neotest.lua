@@ -18,20 +18,6 @@ local M = {
   },
 }
 
-M.config = function()
-  require("neotest").setup {
-    adapters = {
-      require "neotest-python",
-      require "neotest-jest" {
-        jestCommand = "yarn test --",
-        -- jestConfigFile = "jest.config.js",
-        -- env = { CI = true },
-        cwd = function(path)
-          return vim.fn.getcwd()
-        end,
-      },
-    },
-  }
-end
+M.config = function() end
 
 return M

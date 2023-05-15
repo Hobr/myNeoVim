@@ -3,8 +3,6 @@ local M = {
   dependencies = "petertriho/nvim-scrollbar",
 }
 
-M.config = function()
-  require("scrollbar.handlers.search").setup {}
-end
+M.config = function() end
 
 return M

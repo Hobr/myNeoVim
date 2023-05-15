@@ -19,9 +19,11 @@ rm -rf ~/.config/nvim/.git
 rm -rf ~/.config/nvim ~/.local/share/nvim ~/.local/state/nvim ~/.cache/nvim
 ```
 
-## 目录结构
-
 ## 快捷键
+
+- \<Leader\> 为空格键
+
+- \<Leader\>q 退出
 
 ## 插件
 

@@ -4,11 +4,6 @@ local M = {
   event = "InsertEnter",
 }
 
-M.config = function()
-  require("copilot").setup {
-    suggestion = { enabled = false },
-    panel = { enabled = false },
-  }
-end
+M.config = function() end
 
 return M

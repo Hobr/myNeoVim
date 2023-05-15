@@ -7,21 +7,6 @@ local M = {
   },
 }
 
-M.config = function()
-  require("lspsaga").setup {
-    ui = {
-      title = true,
-      border = "rounded",
-      winblend = 0,
-      expand = "",
-      collapse = "",
-      code_action = "💡",
-      incoming = " ",
-      outgoing = " ",
-      hover = " ",
-      kind = {},
-    },
-  }
-end
+M.config = function() end
 
 return M
